@@ -1,0 +1,1695 @@
+/* @font-face {
+  font-family: 'Chakra Petch';
+  src: local('ChakraPetchBold'),
+    url('../fonts/Chakra_Petch/ChakraPetch-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Chakra Petch';
+  src: local('Chakra Petch'),
+    url('../fonts/Chakra_Petch/ChakraPetch-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Tourney';
+  src: local('Tourney'),
+    url('../fonts/Tourney/Tourney-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-weight: 600;
+}
+
+
+.pacman-staking-bsc-mobile-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-pasted-image {
+  width: 320px;
+  height: 660px;
+}
+.pacman-staking-bsc-mobile-container01 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-pasted-image01 {
+  width: 280px;
+  height: 72px;
+}
+.pacman-staking-bsc-mobile-pasted-image02 {
+  width: 280px;
+  height: 72px;
+}
+.pacman-staking-bsc-mobile-container02 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container03 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container04 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-pasted-image03 {
+  width: 44px;
+  height: 40px;
+}
+.pacman-staking-bsc-mobile-container05 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.pacman-staking-bsc-mobile-pasted-image04 {
+  width: 130px;
+  height: 141px;
+}
+.pacman-staking-bsc-mobile-container06 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container07 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container08 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container09 {
+  flex: 0 0 auto;
+  width: 246px;
+  height: 184px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 16px;
+  border-color: #0332FF;
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  flex-direction: column;
+  padding-bottom: 12px;
+  justify-content: flex-start;
+}
+.pacman-staking-bsc-mobile-container10 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container11 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text19 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text20 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container12 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text21 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text22 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container13 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text23 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text24 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button1 {
+  width: 100%;
+  height: 38px;
+  margin-top: 3vw;
+  border-width: 0px;
+  border-radius: 0px;
+  background-color: #0332FF;
+}
+.pacman-staking-bsc-mobile-container14 {
+  flex: 0 0 auto;
+  width: 246px;
+  height: 184px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 16px;
+  border-color: #0332FF;
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  flex-direction: column;
+  padding-bottom: 12px;
+  justify-content: flex-start;
+}
+.pacman-staking-bsc-mobile-container15 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container16 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text28 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text29 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container17 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text30 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text31 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container18 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text32 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text33 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button2 {
+  width: 100%;
+  height: 38px;
+  margin-top: 28px;
+  border-width: 0px;
+  border-radius: 0px;
+  background-color: #0332FF;
+}
+.pacman-staking-bsc-mobile-container19 {
+  flex: 0 0 auto;
+  width: 246px;
+  height: 184px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 16px;
+  border-color: #0332FF;
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  flex-direction: column;
+  padding-bottom: 12px;
+  justify-content: flex-start;
+}
+.pacman-staking-bsc-mobile-container20 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container21 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text37 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text38 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container22 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text39 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text40 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container23 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text41 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text42 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button3 {
+  width: 100%;
+  height: 38px;
+  margin-top: 28px;
+  border-width: 0px;
+  border-radius: 0px;
+  background-color: #0332FF;
+}
+.pacman-staking-bsc-mobile-container24 {
+  flex: 0 0 auto;
+  width: 246px;
+  height: 184px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 16px;
+  border-color: #0332FF;
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  flex-direction: column;
+  padding-bottom: 12px;
+  justify-content: flex-start;
+}
+.pacman-staking-bsc-mobile-container25 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container26 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text46 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text47 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container27 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text48 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text49 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container28 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text50 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text51 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button4 {
+  width: 100%;
+  height: 38px;
+  margin-top: 28px;
+  border-width: 0px;
+  border-radius: 0px;
+  background-color: #0332FF;
+}
+.pacman-staking-bsc-mobile-container29 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container30 {
+  flex: 0 0 auto;
+  width: 246px;
+  height: 184px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 16px;
+  border-color: #0332FF;
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  flex-direction: column;
+  padding-bottom: 12px;
+  justify-content: flex-start;
+}
+.pacman-staking-bsc-mobile-container31 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container32 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text56 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text57 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container33 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text58 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text59 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container34 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text60 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text61 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button5 {
+  width: 100%;
+  height: 38px;
+  margin-top: 3vw;
+  border-width: 0px;
+  border-radius: 0px;
+  background-color: #0332FF;
+}
+.pacman-staking-bsc-mobile-container35 {
+  flex: 0 0 auto;
+  width: 246px;
+  height: 184px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 16px;
+  border-color: #0332FF;
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  flex-direction: column;
+  padding-bottom: 12px;
+  justify-content: flex-start;
+}
+.pacman-staking-bsc-mobile-container36 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container37 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text65 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text66 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container38 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text67 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text68 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container39 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text69 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text70 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button6 {
+  width: 100%;
+  height: 38px;
+  margin-top: 28px;
+  border-width: 0px;
+  border-radius: 0px;
+  background-color: #0332FF;
+}
+.pacman-staking-bsc-mobile-container40 {
+  flex: 0 0 auto;
+  width: 246px;
+  height: 184px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 16px;
+  border-color: #0332FF;
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  flex-direction: column;
+  padding-bottom: 12px;
+  justify-content: flex-start;
+}
+.pacman-staking-bsc-mobile-container41 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container42 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text74 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text75 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container43 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text76 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text77 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container44 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text78 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text79 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button7 {
+  width: 100%;
+  height: 38px;
+  margin-top: 28px;
+  border-width: 0px;
+  border-radius: 0px;
+  background-color: #0332FF;
+}
+.pacman-staking-bsc-mobile-container45 {
+  flex: 0 0 auto;
+  width: 246px;
+  height: 184px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 16px;
+  border-color: #0332FF;
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  flex-direction: column;
+  padding-bottom: 12px;
+  justify-content: flex-start;
+}
+.pacman-staking-bsc-mobile-container46 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container47 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text83 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text84 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container48 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text85 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text86 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container49 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-text87 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 600;
+}
+.pacman-staking-bsc-mobile-text88 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button8 {
+  width: 100%;
+  height: 38px;
+  margin-top: 28px;
+  border-width: 0px;
+  border-radius: 0px;
+  background-color: #0332FF;
+}
+.pacman-staking-bsc-mobile-container50 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-pasted-image05 {
+  width: 280px;
+  height: 596px;
+}
+.pacman-staking-bsc-mobile-container51 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pacman-staking-bsc-mobile-container52 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.pacman-staking-bsc-mobile-pasted-image06 {
+  width: 49px;
+  height: 40px;
+}
+.pacman-staking-bsc-mobile-pasted-image07 {
+  width: 54px;
+  height: 40px;
+}
+.pacman-staking-bsc-mobile-pasted-image08 {
+  width: 51px;
+  height: 40px;
+}
+.pacman-staking-bsc-mobile-pasted-image09 {
+  width: 46px;
+  height: 40px;
+}
+.pacman-staking-bsc-mobile-pasted-image10 {
+  width: 234px;
+  height: 35px;
+}
+.pacman-staking-bsc-mobile-button1 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button2 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button3 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button4 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button5 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button6 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button7 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button8 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container {
+  background-color: #0D0D0D;
+}
+.pacman-staking-bsc-mobile-pasted-image {
+  width: 100%;
+  height: auto;
+}
+.pacman-staking-bsc-mobile-container01 {
+  width: 87.5%;
+  height: auto;
+  margin-top: 15vw;
+  align-items: center;
+}
+.pacman-staking-bsc-mobile-text {
+  color: #FFFFFF;
+  font-size: 10vw;
+  font-style: normal;
+  margin-top: 42px;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-pasted-image01 {
+  width: 100%;
+  height: auto;
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-pasted-image02 {
+  width: 100%;
+  height: auto;
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-container02 {
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+.pacman-staking-bsc-mobile-container03 {
+  width: 100%;
+  height: 30vw;
+  margin-top: 8vw;
+  align-items: center;
+  border-color: #0332FF;
+  border-style: solid;
+  border-width: 3px;
+  justify-content: center;
+}
+.pacman-staking-bsc-mobile-container04 {
+  width: 97%;
+  height: 92%;
+  align-items: center;
+  border-color: #0332FF;
+  border-style: solid;
+  border-width: 3px;
+}
+.pacman-staking-bsc-mobile-text01 {
+  color: #FFFFFF;
+  font-size: 6vw;
+  font-style: normal;
+  margin-top: 4vw;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-text02 {
+  color: #FFFFFF;
+  font-size: 3vw;
+  font-style: normal;
+  margin-top: 4vw;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-pasted-image03 {
+  width: 15vw;
+  height: auto;
+  margin-top: 15vw;
+}
+.pacman-staking-bsc-mobile-container05 {
+  height: auto;
+  margin-top: 15vw;
+  align-items: center;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-pasted-image04 {
+  width: 45%;
+  height: auto;
+}
+.pacman-staking-bsc-mobile-container06 {
+  width: 45%;
+  height: auto;
+  align-items: center;
+}
+.pacman-staking-bsc-mobile-text03 {
+  color: #FFFFFF;
+  font-size: 5vw;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-text04 {
+  color: #FFF100;
+  font-size: 10vw;
+  font-style: normal;
+  font-family: Tourney;
+  font-weight: 500;
+}
+.pacman-staking-bsc-mobile-text05 {
+  color: #FFFFFF;
+  font-size: 5vw;
+  font-style: normal;
+  margin-top: 3vw;
+  text-align: center;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-text06 {
+  color: #FFF100;
+  font-size: 10vw;
+  font-style: normal;
+  font-family: Tourney;
+  font-weight: 500;
+}
+.pacman-staking-bsc-mobile-text07 {
+  color: #FFFFFF;
+  font-size: 5vw;
+  font-style: normal;
+  margin-top: 3vw;
+  text-align: center;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-text08 {
+  color: rgb(255, 241, 0);
+  font-size: 10vw;
+  font-style: normal;
+  font-family: Tourney;
+  font-weight: 500;
+}
+.pacman-staking-bsc-mobile-text11 {
+  color: #FFFFFF;
+  font-size: 8.9vw;
+  font-style: normal;
+  margin-top: 15vw;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-text12 {
+  color: #FFFFFF;
+  font-size: 5.5vw;
+  font-style: normal;
+  margin-top: 6vw;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-textinput {
+  color: #FFFFFF;
+  width: 100%;
+  height: 14vw;
+  font-size: 6vw;
+  margin-top: 3vw;
+  text-align: center;
+  font-family: 'Chakra Petch';
+  border-color: #0332FF;
+  border-width: 2px;
+  border-radius: 0px;
+  background-color: #0D0D0D;
+}
+.pacman-staking-bsc-mobile-text13 {
+  color: #FFFFFF;
+  font-size: 5.5vw;
+  font-style: normal;
+  margin-top: 8vw;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container07 {
+  width: 100%;
+  height: 14vw;
+  margin-top: 2vw;
+  align-items: center;
+  border-color: #0332FF;
+  border-style: solid;
+  border-width: 2px;
+  justify-content: center;
+}
+.pacman-staking-bsc-mobile-text14 {
+  color: rgb(255, 255, 255);
+  font-size: 6vw;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-button {
+  width: 100%;
+  height: 16vw;
+  margin-top: 6vw;
+  border-radius: 0px;
+  background-color: rgb(3, 50, 255);
+}
+.pacman-staking-bsc-mobile-text15 {
+  color: #FFFFFF;
+  font-size: 5vw;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-text16 {
+  width: 100%;
+  height: 16vw;
+  border-radius: 0px;
+}
+.pacman-staking-bsc-mobile-container08 {
+  width: 100%;
+  margin-top: 15vw;
+  align-items: center;
+}
+.pacman-staking-bsc-mobile-text18 {
+  color: #FFFFFF;
+  font-size: 9.5vw;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container09 {
+  width: 100%;
+  height: 66vw;
+  margin-top: 5vw;
+  padding-top: 5vw;
+  margin-right: 0px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 5vw;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-container10 {
+  width: 100%;
+  height: auto;
+}
+.pacman-staking-bsc-mobile-text19 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text20 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container12 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text21 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text22 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container13 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text23 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text24 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-button1 {
+  color: rgb(255, 255, 255);
+  height: 12vw;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+  background-color: rgb(3, 50, 255);
+}
+.pacman-staking-bsc-mobile-text25 {
+  font-size: 7vw;
+}
+.pacman-staking-bsc-mobile-container14 {
+  width: 100%;
+  height: 60vw;
+  margin-top: 5vw;
+  padding-top: 5vw;
+  margin-right: 0px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 5vw;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-container15 {
+  width: 100%;
+  height: auto;
+}
+.pacman-staking-bsc-mobile-text28 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text29 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container17 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text30 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text31 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container18 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text32 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text33 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-button2 {
+  color: rgb(255, 255, 255);
+  height: 12vw;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+  background-color: rgb(3, 50, 255);
+}
+.pacman-staking-bsc-mobile-text34 {
+  font-size: 7vw;
+}
+.pacman-staking-bsc-mobile-container19 {
+  width: 100%;
+  height: 60vw;
+  margin-top: 5vw;
+  padding-top: 5vw;
+  margin-right: 0px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 5vw;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-container20 {
+  width: 100%;
+  height: auto;
+}
+.pacman-staking-bsc-mobile-text37 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text38 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container22 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text39 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text40 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container23 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text41 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text42 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-button3 {
+  color: rgb(255, 255, 255);
+  height: 12vw;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+  background-color: rgb(3, 50, 255);
+}
+.pacman-staking-bsc-mobile-text43 {
+  font-size: 7vw;
+}
+.pacman-staking-bsc-mobile-container24 {
+  width: 100%;
+  height: 60vw;
+  margin-top: 5vw;
+  padding-top: 5vw;
+  margin-right: 0px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 5vw;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-container25 {
+  width: 100%;
+  height: auto;
+}
+.pacman-staking-bsc-mobile-text46 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text47 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container27 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text48 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text49 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container28 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text50 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text51 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-button4 {
+  color: rgb(255, 255, 255);
+  height: 12vw;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+  background-color: rgb(3, 50, 255);
+}
+.pacman-staking-bsc-mobile-text52 {
+  font-size: 7vw;
+}
+.pacman-staking-bsc-mobile-container29 {
+  width: 100%;
+  margin-top: 15vw;
+  align-items: center;
+}
+.pacman-staking-bsc-mobile-text55 {
+  color: rgb(255, 255, 255);
+  font-size: 9.5vw;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-container30 {
+  width: 100%;
+  height: 60vw;
+  margin-top: 5vw;
+  padding-top: 5vw;
+  border-color: #FFF100;
+  margin-right: 0px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 5vw;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-container31 {
+  width: 100%;
+  height: auto;
+}
+.pacman-staking-bsc-mobile-text56 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text57 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container33 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text58 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text59 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container34 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text60 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text61 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-button5 {
+  color: rgb(255, 255, 255);
+  height: 12vw;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+  background-color: #FFF100;
+}
+.pacman-staking-bsc-mobile-text62 {
+  color: #000000;
+  font-size: 7vw;
+}
+.pacman-staking-bsc-mobile-container35 {
+  width: 100%;
+  height: 60vw;
+  margin-top: 5vw;
+  padding-top: 5vw;
+  border-color: #FFF100;
+  margin-right: 0px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 5vw;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-container36 {
+  width: 100%;
+  height: auto;
+}
+.pacman-staking-bsc-mobile-text65 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text66 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container38 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text67 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text68 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container39 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text69 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text70 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-button6 {
+  color: rgb(255, 255, 255);
+  height: 12vw;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+  background-color: #FFF100;
+}
+.pacman-staking-bsc-mobile-text71 {
+  color: #000000;
+  font-size: 7vw;
+}
+.pacman-staking-bsc-mobile-container40 {
+  width: 100%;
+  height: 60vw;
+  margin-top: 5vw;
+  padding-top: 5vw;
+  border-color: #FFF100;
+  margin-right: 0px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 5vw;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-container41 {
+  width: 100%;
+  height: auto;
+}
+.pacman-staking-bsc-mobile-text74 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text75 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container43 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text76 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text77 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container44 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text78 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text79 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-button7 {
+  color: rgb(255, 255, 255);
+  height: 12vw;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+  background-color: #FFF100;
+}
+.pacman-staking-bsc-mobile-text80 {
+  color: #000000;
+  font-size: 7vw;
+}
+.pacman-staking-bsc-mobile-container45 {
+  width: 100%;
+  height: 60vw;
+  margin-top: 5vw;
+  padding-top: 5vw;
+  border-color: #FFF100;
+  margin-right: 0px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 5vw;
+  justify-content: space-between;
+}
+.pacman-staking-bsc-mobile-container46 {
+  width: 100%;
+  height: auto;
+}
+.pacman-staking-bsc-mobile-text83 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text84 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container48 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text85 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text86 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-container49 {
+  margin-top: 4vw;
+}
+.pacman-staking-bsc-mobile-text87 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-text88 {
+  font-size: 6vw;
+}
+.pacman-staking-bsc-mobile-button8 {
+  color: rgb(255, 255, 255);
+  height: 12vw;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+  background-color: #FFF100;
+}
+.pacman-staking-bsc-mobile-text89 {
+  color: #000000;
+  font-size: 7vw;
+}
+.pacman-staking-bsc-mobile-container50 {
+  width: 100%;
+  height: auto;
+  margin-top: 15vw;
+  align-items: center;
+}
+.pacman-staking-bsc-mobile-text92 {
+  color: #FFFFFF;
+  font-size: 9.5vw;
+  font-style: normal;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-link {
+  color: rgb(255, 255, 255);
+  font-size: 5vw;
+  font-style: normal;
+  margin-top: 4vw;
+  text-align: center;
+  font-family: 'Chakra Petch';
+  font-weight: 700;
+}
+.pacman-staking-bsc-mobile-pasted-image05 {
+  width: 100%;
+  height: auto;
+  margin-top: 13vw;
+}
+.pacman-staking-bsc-mobile-container51 {
+  width: 100%;
+  height: auto;
+  margin-top: 15vw;
+  align-items: center;
+  margin-bottom: 7vw;
+}
+.pacman-staking-bsc-mobile-container52 {
+  align-items: center;
+  justify-content: center;
+}
+.pacman-staking-bsc-mobile-pasted-image06 {
+  width: 20%;
+  height: auto;
+  margin-right: 4%;
+}
+.pacman-staking-bsc-mobile-pasted-image07 {
+  width: 20%;
+  height: auto;
+  margin-right: 4%;
+}
+.pacman-staking-bsc-mobile-pasted-image08 {
+  width: 20%;
+  height: auto;
+  margin-right: 4%;
+}
+.pacman-staking-bsc-mobile-pasted-image09 {
+  width: 20%;
+  height: auto;
+}
+.pacman-staking-bsc-mobile-pasted-image10 {
+  width: 80vw;
+  height: auto;
+  margin-top: 2vw;
+} */
