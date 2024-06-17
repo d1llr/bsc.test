@@ -1,22 +1,22 @@
-import { bsc } from "@wagmi/core/chains"
+import { bsc } from "@wagmi/core/chains";
 
 // \\//\\//\\//\\// interfaces & types \\//\\//\\//\\//
 
-export type ChainId = (typeof registerdChainIds)[number]
+export type ChainId = (typeof registerdChainIds)[number];
 
 export interface network {
-  rpc: string
-  chainId: number
-  scanner: string
-  name: string
-  symbol: string
-  short: string
-  type: "mainnet" | "testnet"
+  rpc: string;
+  chainId: number;
+  scanner: string;
+  name: string;
+  symbol: string;
+  short: string;
+  type: "mainnet" | "testnet";
 }
 
 type MapType = {
-  [token: string]: network
-}
+  [token: string]: network;
+};
 
 // \\//\\//\\//\\// constants & variables \\//\\//\\//\\//
 
@@ -48,24 +48,23 @@ const networks: MapType = {
     short: "octa",
     type: "mainnet",
   },
-}
+};
 
 export const NETWORKS: MapType = {
   "800001": networks.octa,
   "97": networks.bsc_testnet,
-  "56": networks.bsc_mainnet,
-}
+};
 
-export const registerdChainIds: number[] = [bsc.id]
+export const registerdChainIds: number[] = [bsc.id];
 
-export const DEFAULT_CHAINID = registerdChainIds[0]
+export const DEFAULT_CHAINID = registerdChainIds[0];
 
 // \\//\\//\\//\\// functions \\//\\//\\//\\//
 
 export function hexId(chainId: number): string {
-  return `0x${chainId.toString(16)}`
+  return `0x${chainId.toString(16)}`;
 }
 
 export function supportedChain(chainId: number): boolean {
-  return registerdChainIds.find((element) => element === chainId) !== undefined
+  return registerdChainIds.find((element) => element === chainId) !== undefined;
 }

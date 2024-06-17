@@ -6,7 +6,7 @@ import {
   Chain,
 } from "wagmi";
 import { MetaMaskConnector } from "wagmi/connectors/metaMask";
-import { bsc } from "@wagmi/core/chains";
+import { bscTestnet } from "@wagmi/core/chains";
 
 import { ToastPosition, useToast } from "@chakra-ui/react";
 import { changeChain } from "@/modules/Chains/chainHelper";
@@ -57,7 +57,7 @@ const ConnectButton = (props: { padding: string }) => {
 
   const handleAuth = async () => {
     try {
-      await changeChain(bsc.id);
+      await changeChain(bscTestnet.id);
 
       if (isConnected) {
         await disconnectAsync();
@@ -86,7 +86,7 @@ const ConnectButton = (props: { padding: string }) => {
 
   return (
     <div className="max-[1200px]:w-full flex items-center">
-      {account.isConnected ?
+      {account.isConnected ? (
         <button
           className={`yellow_btn px-4 ${props.padding}  text-base rounded-[10px] max-[920px]:text-[16px]`}
           onClick={() => handleDisconnect()}
@@ -94,14 +94,15 @@ const ConnectButton = (props: { padding: string }) => {
           {/* {isLoading && <Loader />} */}
           Disconnect wallet
         </button>
-        :
+      ) : (
         <button
           className={`yellow_btn px-4  ${props.padding} text-base rounded-[10px] max-[920px]:text-[16px]`}
           onClick={() => handleAuth()}
         >
           {/* {isLoading && <Loader />} */}
           Connect wallet
-        </button>}
+        </button>
+      )}
     </div>
   );
 };

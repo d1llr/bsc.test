@@ -1,5 +1,6 @@
 import { Chain, createClient, WagmiConfig } from "wagmi";
 import { configureChains } from "@wagmi/core";
+import { bscTestnet } from "@wagmi/chains";
 import { publicProvider } from "wagmi/providers/public";
 import { SessionProvider } from "next-auth/react";
 import type { AppProps } from "next/app";
@@ -42,8 +43,29 @@ const bscCustom: Chain = {
   testnet: false,
 };
 
+const bscTestCustom: Chain = {
+  id: 97,
+  name: bscTestnet.name,
+  network: bscTestnet.network,
+  nativeCurrency: bscTestnet.nativeCurrency,
+  rpcUrls: {
+    default: {
+      http: [
+        "https://data-seed-prebsc-1-s1.binance.org:8545/",
+        "https://data-seed-prebsc-2-s1.binance.org:8545/",
+        "http://data-seed-prebsc-1-s2.binance.org:8545/",
+      ],
+    },
+  },
+  blockExplorers: {
+    default: { name: "TBscScan", url: "https://testnet.bscscan.com/" },
+    etherscan: { name: "TBscScan", url: "https://testnet.bscscan.com/" },
+  },
+  testnet: true,
+};
+
 const { provider, webSocketProvider } = configureChains(
-  [bscCustom],
+  [bscTestCustom],
   [publicProvider()]
 );
 
@@ -52,8 +74,6 @@ const client = createClient({
   webSocketProvider,
   autoConnect: false,
 });
-
-
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (

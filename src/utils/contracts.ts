@@ -1,7 +1,7 @@
 import * as contractJson from "./contracts/contracts.json";
 import { ethers } from "ethers";
 
-export const chainIds = ["56"] as const;
+export const chainIds = ["97"] as const;
 export type ChainId = (typeof chainIds)[number];
 
 function findContract(key: string, chainId: ChainId): any {
